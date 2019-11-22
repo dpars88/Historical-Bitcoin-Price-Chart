@@ -1,0 +1,37 @@
+{
+  "name": "challenge_2",
+  "version": "1.0.0",
+  "description": "Cryptocurrency Charting Tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/server.js",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dpars88/hrsf123-mini-apps-2/tree/master/challenge_2"
+  },
+  "author": "Derek",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "chart.js": "^2.9.3",
+    "css-loader": "^3.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.0",
+    "path": "^0.12.7",
+    "react": "^16.12.0",
+    "react-chartjs-2": "^2.8.0",
+    "react-dom": "^16.12.0"
+  }
+}
